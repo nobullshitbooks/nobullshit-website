@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/master.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"master.e2f719f2.css","sourceRoot":"..","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  width: 100vw;\r\n  height: 4443px;\r\n  background: #ffffff;\r\n}\r\n"]}
