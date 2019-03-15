@@ -1,10 +1,11 @@
-.navbar {
-  background: white !important;
-}
-
 nav {
   display: flex !important;
   justify-content: space-around !important;
+  width: 100vw;
+}
+
+.navbar {
+  background: white !important;
 }
 
 .navbar-collapse-position {

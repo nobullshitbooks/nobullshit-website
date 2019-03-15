@@ -1,5 +1,5 @@
 .container_info_book {
-  width: 100%;
+  width: 90vw;
   height: 711px;
   /* background: #f2f2f2; */
 }
@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 90vw;
   height: 65px;
 }
 
@@ -32,7 +32,7 @@
   align-items: center;
   flex-direction: row;
   height: 620px;
-  width: 100vw;
+  width: 100%;
 }
 
 .ib_left_container,

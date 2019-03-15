@@ -1,7 +1,9 @@
 .container_main_menu {
   display: flex;
-  justify-content: center;
-  height: 550px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 1500px;
   width: 100%;
   /* background: #f2f2f2; */
 }
@@ -94,4 +96,75 @@ ul li {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.rectangle_first_red {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 72.5vw;
+  height: 451px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
+  border: solid 1px #f5a623;
+  background-color: #ffffff;
+}
+
+.Illustration {
+  width: 386px;
+  height: 387px;
+  object-fit: contain;
+}
+
+.rectangle_red div {
+  display: flex;
+  flex-direction: row;
+}
+
+.rectangle_red_title {
+  width: 449px;
+  height: 37px;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #15196a;
+}
+.rectangle_red_oval {
+  margin-top: 1vh;
+  margin-right: 1vw;
+}
+
+.rectangle_red_text {
+  width: 422px;
+  height: 248px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #15196a;
+}
+.rectangle_first_blue {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 72.5vw;
+  height: 312px;
+  border-radius: 8px;
+  box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
+  border: solid 1px #f5a623;
+  background-color: #ffffff;
+}
+
+.Coming {
+  width: 290px;
+  height: 291px;
 }
