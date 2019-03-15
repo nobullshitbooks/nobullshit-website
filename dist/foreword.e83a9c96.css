@@ -1,5 +1,4 @@
-
-.contenair_foreword {
+.container_foreword {
   display: flex;
   align-items: center;
   width: 100%;
@@ -11,14 +10,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  flex-grow: 1;
   height: 697px;
 }
 
 .foreword_title {
   width: 471px;
   height: 61px;
-  font-family: OpenSans;
+  font-family: "Open Sans";
   font-size: 40px;
   font-weight: 900;
   font-style: normal;
@@ -31,7 +30,7 @@
 .foreword_paragraph {
   width: 460px;
   height: 129px;
-  font-family: Mada;
+  font-family: "Mada";
   font-size: 20px;
   font-weight: 600;
   font-style: normal;
@@ -52,7 +51,7 @@
 .foreword_info_input {
   width: 330px;
   height: 19px;
-  font-family: Mada;
+  font-family: "Mada";
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
@@ -67,7 +66,7 @@
   height: 56px;
   border-radius: 4px;
   border: solid 1px #15196a;
-  font-family: Mada;
+  font-family: "Mada";
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
@@ -98,7 +97,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  flex-grow: 1;
   height: 697px;
 }
 

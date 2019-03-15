@@ -8,6 +8,7 @@ body {
   width: 100vw;
   height: 4443px;
   background: #ffffff;
+  overflow-x: hidden;
 }
 
 

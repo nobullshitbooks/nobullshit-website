@@ -1,0 +1,7 @@
+#dist
+dist/
+
+#le cache
+.cache/
+
+node_modules/
