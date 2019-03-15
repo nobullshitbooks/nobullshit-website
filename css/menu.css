@@ -1,16 +1,3 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  width: 100vw;
-  height: 4443px;
-  background: #ffffff;
-  overflow-x: hidden;
-}
-
 .container_main_menu {
   display: flex;
   justify-content: center;

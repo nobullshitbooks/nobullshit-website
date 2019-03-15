@@ -1,6 +1,6 @@
 .container_info_book {
   width: 100%;
-  height: 782px;
+  height: 711px;
   /* background: #f2f2f2; */
 }
 
@@ -31,7 +31,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 717px;
+  height: 620px;
   width: 100vw;
 }
 
@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-  height: 717px;
+  height: 672px;
 }
 
 .ib_left_container {
@@ -92,7 +92,7 @@
 }
 
 .oval {
-  margin-bottom: 2.1vh;
+  margin-bottom: 1.2vh;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -109,6 +109,9 @@
 
 .green {
   background-color: #008f02;
+}
+.red {
+  background-color: #ee220d;
 }
 
 .color_area_title {
