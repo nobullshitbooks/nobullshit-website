@@ -8,10 +8,13 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
-  height: 4960px;
-  background: #ffffff;
   overflow-x: hidden;
+}
+
+.container_main {
+  width: 80%;
+  /* background: #f2f2f2; */
+  /* height: 4960px; */
 }
 
 .flexbox-fcc {
@@ -19,3 +22,5 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* REMPLACER container par section */

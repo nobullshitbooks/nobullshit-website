@@ -46,7 +46,6 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand hashtag" href="#">#</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,7 +55,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <a class=" navbar-brand hashtag" href="#">#</a>
         </button>
         <div
           class="collapse navbar-collapse navbar-collapse-position"
@@ -64,12 +63,10 @@
         >
           <ul class="navbar-nav center">
             <li class="nav-item">
-              <a class="nav-link Ce-quil-y-a-dedans" href="#"
-                >Sommaire du livre</a
-              >
+              <a class="nav-link Ce-quil-y-a-dedans" href="#">Sommaire</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link A-propos-de-lauteur" href="#">Bio</a>
+              <a class="nav-link A-propos-de-lauteur" href="#">No bullshit ?</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link Rester-inform" href="#">Rester informé</a>
@@ -82,16 +79,340 @@
         -->
       </nav>
     </header>
-    <div class="container_foreword">
-      <div class="foreword_left flexbox-fcc">
-        <p class="foreword_title">#Nobullshit Tech-Lead.</p>
-        <p class="foreword_paragraph">
-          60 principes fondamentaux pratiques, illustrés et applicables
-          quotidiennement de la petite à la grande entreprise du développeur au
-          CTO en passant par le tech-lead et l'architecte.
-        </p>
+
+    <div class="container_main">
+      <div class="container_foreword">
+        <div class="foreword_left flexbox-fcc">
+          <p class="foreword_title">#Nobullshit Tech-Lead</p>
+          <p class="foreword_paragraph">
+            60 principes fondamentaux pratiques, illustrés et applicables
+            quotidiennement de la petite à la grande entreprise du développeur
+            au CTO en passant par le tech-lead et l'architecte.
+          </p>
+          <div class="form-group">
+            <label class="foreword_info_input" for="inputLarge"
+              >Rester informé de la sortie du livre et de son avancée :</label
+            >
+            <div class="form-group-send">
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                placeholder="Votre e-mail"
+                id="inputLarge"
+              />
+              <button type="button">
+                <img src="img/icons/send.svg" class="send" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="foreword_right flexbox-fcc">
+          <img src="img/Desktop/IllU-header.png" class="Illustration-header" />
+        </div>
+      </div>
+
+      <div class="container_info_book">
+        <div class="container_ib_title flexbox-fcc">
+          <p class="ib_title">Sommaire</p>
+          <img src="img/underligne.png" class="soulignement" />
+        </div>
+        <div class="ib_montain_container flexbox-fcc">
+          <div class="ib_left_container flexbox-fcc">
+            <div class="ib_blue_area flexbox-fcc">
+              <div class="ib_area_title flexbox-fcc">
+                <div class="oval blue"></div>
+                <p class="color_area_title t_title_blue">
+                  De la vie personnelle à la vision - 8848 m
+                </p>
+              </div>
+              <p class="color_area_paragraph blue_paragraph">
+                Quels principes pratiques respecter pour construire et affiner
+                sa vision technologie et sa compréhension du marché tout en
+                maintenant un équilibre entre un travail très prenant et sa vie
+                personnelle ?
+              </p>
+            </div>
+            <div class="ib_green_area flexbox-fcc">
+              <div class="ib_area_title flexbox-fcc">
+                <div class="oval green"></div>
+                <p class="color_area_title">
+                  Du recrutement à la culture - 1000 m
+                </p>
+              </div>
+              <p class="color_area_paragraph green_paragraph">
+                Peut importe la taille de l'entreprise, ces questions
+                apparaissent. Comment et ou recruter et sourcer les bons profils
+                ? Quel méthode de management ? Sur quel modèle organiser mon ou
+                mes équipes ? Quelle culture tech insuffler à l'entreprise ?
+              </p>
+            </div>
+            <div class="ib_red_area flexbox-fcc">
+              <div class="ib_area_title flexbox-fcc">
+                <div class="oval red"></div>
+                <p class="color_area_title">
+                  Du produit au développement - 100m
+                </p>
+              </div>
+              <p class="color_area_paragraph red_paragraph">
+                Comment maintenir l'équilibre entre une roadmap produit parfois
+                aggressive et la qualité des applications ? Quelle organisation
+                et architecture pour assurer un delivery et donc un
+                time-to-market agressif ? Quels grands principes de
+                développement, d'infrastructure et d'architecture produit
+                respecter pour assurer une pérénnité et une mise à l'échelle des
+                développements des équipes ? Comment s'assurer, à l'échelle, du
+                suivi des bonnes pratiques ?
+              </p>
+            </div>
+          </div>
+          <div class="ib_right_container flexbox-fcc">
+            <img
+              src="img/Desktop/Illustration-mountains.png"
+              class="Illustration-mountains"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container_main_menu flexbox-fcc">
+        <div class="container_row_menu flexbox-fcc">
+          <div class="area_red flexbox-fcc">
+            <img src="img/icons/triangle.svg" class="triangle" />
+            <p class="menu_title">Du produit au développement</p>
+            <ul>
+              <li class="li-red">
+                SSoT: Une source de vérité unique pour les gouverner
+              </li>
+              <li class="li-red">spanSoC: Séparer les intérêts</li>
+              <li class="li-red">Faire le choix de noms ennuyeux</li>
+              <li class="li-red">
+                Tout limiter dans l'espace et dans le temps
+              </li>
+              <li class="no-li">...</li>
+            </ul>
+          </div>
+          <div class="area_green flexbox-fcc">
+            <img src="img/icons/round.svg" class="round" />
+            <p class="menu_title">Du recrutement à la culture</p>
+            <ul>
+              <li class="li-green">Go for the edge</li>
+              <li class="li-green">
+                Insuffler la culture cible et la voir grandir
+              </li>
+              <li class="li-green">
+                Montre-moi ton code, je te dirai qui tu es
+              </li>
+              <li class="li-green">Chercher les bons profils là où ils sont</li>
+              <li class="no-li">...</li>
+            </ul>
+          </div>
+          <div class="area_blue flexbox-fcc">
+            <img src="img/icons/losange.svg" class="losange" />
+            <p class="menu_title">De la vie personnelle à la vision</p>
+            <ul>
+              <li class="li-blue">Une action, 3 conséquences positives</li>
+              <li class="li-blue">Le ratio production/consommation</li>
+              <li class="li-blue">Choix technologique : X ou Y ?</li>
+              <li class="li-blue">Une action, 3 conséquences positives</li>
+              <li class="no-li">...</li>
+            </ul>
+          </div>
+        </div>
+        <div class="rectangle_first_red flexbox-fcc">
+          <img src="img/Desktop/Illu-principle.png" class="Illustration" />
+          <div class="rectangle_red">
+            <div>
+              <div class="oval red rectangle_red_oval"></div>
+              <p class="rectangle_red_title">
+                Faire le choix des noms ennuyeux
+              </p>
+            </div>
+            <p class="rectangle_red_text">
+              Le nommage doit être ennuyeux. Comme le disait Phil Karlton, il y
+              a seulement deux choses difficiles en informatique :
+              l'invalidation du cache et nommer les choses. J'ajouterai que
+              concernant le nommage, il doit être ennuyeux. Qu'il s'agisse d'un
+              d'une fonction, d'un (micro-)service ou d'un projet interne, son
+              nom doit être transparent. Pas de jargon ! Il faut qu'un stagiaire
+              comprenne ce qu'il se passe dès son premier jour dans
+              l'entreprise. Le nom doit décrire ce que cela fait (e.g.
+              "user-preference") et non ce que c'est (e.g. "api-preference",
+              "preference api").
+            </p>
+          </div>
+        </div>
+        <div class="rectangle_first_blue flexbox-fcc">
+          <img src="img/Desktop/Illu-comingsoon.png" class="Coming-none" />
+          <div class="rectangle_red">
+            <div>
+              <p class="rectangle_red_title">
+                Oups, Le principe n’est pas encore disponible.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="rectangle_first_blue flexbox-fcc">
+          <img src="img/Desktop/Illu-comingsoon.png" class="Coming-none" />
+          <div class="rectangle_red">
+            <div>
+              <p class="rectangle_red_title">
+                Oups, Le principe n’est pas encore disponible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_no-bullshit_main flexbox-fcc">
+        <div class="container_bullshit_title flexbox-fcc">
+          <p class="bullshit_title">No bullshit ?</p>
+          <img src="img/underligne.png" class="soulignement" />
+        </div>
+        <div class="container_main_info_fg flexbox-fcc">
+          <div class="info_fg_left flexbox-fcc">
+            <img src="img/Desktop/Illu-author.png" class="Illustratio-author" />
+            <div class="area_author_main">
+              <p class="area_title">L’auteur : François Guillaume Ribreau</p>
+              <p class="cv_fg">
+                Full Stack CTO, Startup/Corporation Tech Advisor, Hacker, Maker.
+              </p>
+              <div class="area_network flexbox-fcc">
+                <a href="#">
+                  <img src="img/icons/linkedin.svg" class="linkedin" />
+                </a>
+                <a href="#">
+                  <img src="img/icons/twitter.svg" class="twitter" />
+                </a>
+              </div>
+            </div>
+            <div class="area_info_startup_main">
+              <p class="area_title">Indie hacker & Saas founder</p>
+              <div class="startup_main">
+                <div class="startup_spacing">
+                  <p class="text_style_1">Redsmin</p>
+                  <p class="text_style_2">
+                    Leader depuis 2012 de l'administration et du monitoring de
+                    serveurs Redis.
+                  </p>
+                  <!-- ICI -->
+                  <!-- Faire en sorte que Redsmin soit coller a la suite -->
+                </div>
+                <div class="startup_spacing">
+                  <p class="text_style_1">Image charts</p>
+                  <p class="text_style_2">
+                    Remplaçant de Google Image Charts depuis 2016, plus d'un
+                    million de graphiques générés par mois.
+                  </p>
+                  <!--
+                    Faire en sorte que Image charts soit coller a la suite
+                  -->
+                </div>
+              </div>
+            </div>
+            <div class="area_info_travel_main">
+              <p class="area_title">CTO</p>
+              <div class="travel_main">
+                <p class="text_style_1">MotionDynamic</p>
+                <div class="spacing">
+                  <p class="text_style_1">Ex CTO de Bringr</p>
+                  <p class="text_style_2">Revendu en 2015 à iAdvize.</p>
+                </div>
+              </div>
+            </div>
+            <div class="area_info_adviser_main">
+              <p class="area_title">Consultant, conseiller et enseignant</p>
+              <div class="adviser_main">
+                <p class="text_style_2">
+                  Cognix-system <br />Oxmoto<br /><br />
+                  EPSI Nantes<br />
+                  Université de Nantes<br />
+                </p>
+              </div>
+            </div>
+            <div class="area_info_speaker_main">
+              <p class="area_title">Speaker</p>
+              <div class="speaker_main">
+                <p class="text_style_2">
+                  BreizhCamp 2018-2019 <br />
+                  Devoxx 2019<br />
+                  MixIT Lyon 2019<br />
+                  Rivera Dev 2019<br />
+                  Web2Day 2016-2017-2018-2019 <br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="info_fg_right flexbox-fcc">
+            <div class="rectangle_copy_1 flexbox-fcc">
+              <p class="rectangle_text_copy_1">
+                La vision, le leadership, le dynamisme et l'énergie de
+                François-Guillaume sont bien au-delà de la mission attendue. Ses
+                compétences techniques lui assurent un grand crédit auprès de
+                tous. C'est un excellent manager qui apporte aux collaborateurs
+                de son équipe communication, transparence, vision et technicité.
+                Il sait évaluer, recruter mais surtout recadrer quand c'est
+                nécessaire, dans la bienveillance et le respect. J'espère avoir
+                l'occasion de retravailler un jour avec lui !
+              </p>
+            </div>
+            <div class="rectangle_text_1 flexbox-fcc">
+              <p class="Fabien_Grellier">Fabien Grellier</p>
+              <p class="Fabien_Grellier_travel">
+                ex-Chef de Service Numérique Ouest-France,<br />
+                ex-Dir-Tech PagesJaunes.fr.
+              </p>
+            </div>
+            <div class="rectangle_copy_2 flexbox-fcc">
+              <p class="rectangle_text_copy_2">
+                François-Guillaume nous a accompagné dans notre projet de
+                refonte d'architecture. Son expertise très pointue, combinée à
+                une excellente pédagogie, lui ont permis de nous apporter des
+                solutions adaptées à notre taille et à notre contexte.
+                François-Guillaume a tous les modèles en tête, mais il ne
+                cherche pas à les plaquer sur les situations qu'il analyse. Au
+                contraire, il se projette dans la situation particulière de son
+                client, et sait, par son approche très pragmatique,
+                personnaliser ses conseils en s'adaptant aux moyens et aux
+                capacités de chacun. Bravo !
+              </p>
+            </div>
+            <div class="rectangle_text_2 flexbox-fcc">
+              <p class="Maxime_Duprez">Maxime Duprez</p>
+              <p class="Maxime_Duprez_travel">
+                DSI du groupe COMAP, <br />ex-DSI Olympique Lyonnais.
+              </p>
+            </div>
+            <div class="rectangle_copy_3 flexbox-fcc">
+              <p class="rectangle_text_copy_3">
+                A future « must have » -No doubt, given the highest impact and
+                relevance of François Guillaume’s keynotes !
+              </p>
+            </div>
+            <div class="rectangle_text_3 flexbox-fcc">
+              <p class="Thierry_Gaillet">Thierry Gaillet</p>
+              <p class="Thierry_Gaillet_travel">
+                Director, Orange Developper Relations.
+              </p>
+            </div>
+            <div class="rectangle_main_movie flexbox-fcc">
+              <p class="title_movie">Une vidéo vaut milles images :</p>
+              <div class="area_movie">
+                <img src="img/icons/video.svg" class="video" />
+                <a href="#"><p class="Voir-la-vidéo">Voir la vidéo</p></a>
+              </div>
+              <div class="area_movie">
+                <img src="img/icons/video.svg" class="video" />
+                <a href="#"><p class="Voir-la-vidéo">Voir la vidéo</p></a>
+              </div>
+              <div class="area_movie">
+                <img src="img/icons/video.svg" class="video" />
+                <a href="#"><p class="Voir-la-vidéo">Voir la vidéo</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container_bottom_main flexbox-fcc">
         <div class="form-group">
-          <label class="foreword_info_input" for="inputLarge"
+          <label class="label_bottom" for="inputLarge_bottom"
             >Rester informé de la sortie du livre et de son avancée :</label
           >
           <div class="form-group-send">
@@ -99,324 +420,12 @@
               class="form-control form-control-lg"
               type="text"
               placeholder="Votre e-mail"
-              id="inputLarge"
+              id="inputLarge, inputLarge_bottom"
             />
             <button type="button">
               <img src="img/icons/send.svg" class="send" />
             </button>
           </div>
-          <label class="foreword_info_input info_double " for="inputLarge"
-            >Rester informé de la sortie du livre et de son avancée :</label
-          >
-        </div>
-      </div>
-      <div class="foreword_right flexbox-fcc">
-        <img src="img/Desktop/IllU-header.png" class="Illustration-header" />
-      </div>
-    </div>
-    <div class="container_info_book">
-      <div class="container_ib_title flexbox-fcc">
-        <p class="ib_title">Sommaire</p>
-        <img src="img/underligne.png" class="soulignement" />
-      </div>
-      <div class="ib_montain_container flexbox-fcc">
-        <div class="ib_left_container flexbox-fcc">
-          <div class="ib_blue_area flexbox-fcc">
-            <div class="ib_area_title flexbox-fcc">
-              <div class="oval blue"></div>
-              <p class="color_area_title t_title_blue">
-                De la vie personnelle à la vision - 8848 m
-              </p>
-            </div>
-            <p class="color_area_paragraph blue_paragraph">
-              Quels principes pratiques respecter pour construire et affiner sa
-              vision technologie et sa compréhension du marché tout en
-              maintenant un équilibre entre un travail très prenant et sa vie
-              personnelle ?
-            </p>
-          </div>
-          <div class="ib_green_area flexbox-fcc">
-            <div class="ib_area_title flexbox-fcc">
-              <div class="oval green"></div>
-              <p class="color_area_title">
-                Du recrutement à la culture - 1000 m
-              </p>
-            </div>
-            <p class="color_area_paragraph green_paragraph">
-              Peut importe la taille de l'entreprise, ces questions
-              apparaissent. Comment et ou recruter et sourcer les bons profils ?
-              Quel méthode de management ? Sur quel modèle organiser mon ou mes
-              équipes ? Quelle culture tech insuffler à l'entreprise ?
-            </p>
-          </div>
-          <div class="ib_red_area flexbox-fcc">
-            <div class="ib_area_title flexbox-fcc">
-              <div class="oval red"></div>
-              <p class="color_area_title">Du produit au développement - 100m</p>
-            </div>
-            <p class="color_area_paragraph red_paragraph">
-              Comment maintenir l'équilibre entre une roadmap produit parfois
-              aggressive et la qualité des applications ? Quelle organisation et
-              architecture pour assurer un delivery et donc un time-to-market
-              agressif ? Quels grands principes de développement,
-              d'infrastructure et d'architecture produit respecter pour assurer
-              une pérénnité et une mise à l'échelle des développements des
-              équipes ? Comment s'assurer, à l'échelle, du suivi des bonnes
-              pratiques ?
-            </p>
-          </div>
-        </div>
-        <div class="ib_right_container flexbox-fcc">
-          <img
-            src="img/Desktop/Illustration-mountains.png"
-            class="Illustration-mountains"
-          />
-        </div>
-      </div>
-    </div>
-    <div class="container_main_menu flexbox-fcc">
-      <div class="container_row_menu flexbox-fcc">
-        <div class="area_red flexbox-fcc">
-          <img src="img/icons/triangle.svg" class="triangle" />
-          <p class="menu_title">Du produit au développement</p>
-          <ul>
-            <li class="li-red">
-              SSoT: Une source de vérité unique pour les gouverner
-            </li>
-            <li class="li-red">spanSoC: Séparer les intérêts</li>
-            <li class="li-red">Faire le choix de noms ennuyeux</li>
-            <li class="li-red">Tout limiter dans l'espace et dans le temps</li>
-            <li class="no-li">...</li>
-          </ul>
-        </div>
-        <div class="area_green flexbox-fcc">
-          <img src="img/icons/round.svg" class="round" />
-          <p class="menu_title">Du recrutement à la culture</p>
-          <ul>
-            <li class="li-green">Go for the edge</li>
-            <li class="li-green">
-              Insuffler la culture cible et la voir grandir
-            </li>
-            <li class="li-green">Montre-moi ton code, je te dirai qui tu es</li>
-            <li class="li-green">Chercher les bons profils là où ils sont</li>
-            <li class="no-li">...</li>
-          </ul>
-        </div>
-        <div class="area_blue flexbox-fcc">
-          <img src="img/icons/losange.svg" class="losange" />
-          <p class="menu_title">De la vie personnelle à la vision</p>
-          <ul>
-            <li class="li-blue">Une action, 3 conséquences positives</li>
-            <li class="li-blue">Le ratio production/consommation</li>
-            <li class="li-blue">Choix technologique : X ou Y ?</li>
-            <li class="li-blue">Une action, 3 conséquences positives</li>
-            <li class="no-li">...</li>
-          </ul>
-        </div>
-      </div>
-      <div class="rectangle_first_red flexbox-fcc">
-        <img src="img/Desktop/Illu-principle.png" class="Illustration" />
-        <div class="rectangle_red">
-          <div>
-            <div class="oval red rectangle_red_oval"></div>
-            <p class="rectangle_red_title">Faire le choix des noms ennuyeux</p>
-          </div>
-          <p class="rectangle_red_text">
-            Le nommage doit être ennuyeux. Comme le disait Phil Karlton, il y a
-            seulement deux choses difficiles en informatique : l'invalidation du
-            cache et nommer les choses. J'ajouterai que concernant le nommage,
-            il doit être ennuyeux. Qu'il s'agisse d'un d'une fonction, d'un
-            (micro-)service ou d'un projet interne, son nom doit être
-            transparent. Pas de jargon ! Il faut qu'un stagiaire comprenne ce
-            qu'il se passe dès son premier jour dans l'entreprise. Le nom doit
-            décrire ce que cela fait (e.g. "user-preference") et non ce que
-            c'est (e.g. "api-preference", "preference api").
-          </p>
-        </div>
-      </div>
-      <div class="rectangle_first_blue flexbox-fcc">
-        <img src="img/Desktop/Illu-comingsoon.png" class="Coming-none" />
-        <div class="rectangle_red">
-          <div>
-            <p class="rectangle_red_title">
-              Oups, Le principe n’est pas encore disponible.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="rectangle_first_blue flexbox-fcc">
-        <img src="img/Desktop/Illu-comingsoon.png" class="Coming-none" />
-        <div class="rectangle_red">
-          <div>
-            <p class="rectangle_red_title">
-              Oups, Le principe n’est pas encore disponible.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container_no-bullshit_main flexbox-fcc">
-      <div class="container_bullshit_title flexbox-fcc">
-        <p class="bullshit_title">No bullshit ?</p>
-        <img src="img/underligne.png" class="soulignement" />
-      </div>
-      <div class="container_main_info_fg flexbox-fcc">
-        <div class="info_fg_left flexbox-fcc">
-          <img src="img/Desktop/Illu-author.png" class="Illustratio-author" />
-          <div class="area_author_main">
-            <p class="area_title">L’auteur : François Guillaume Ribreau</p>
-            <p class="cv_fg">
-              Full Stack CTO, Startup/Corporation Tech Advisor, Hacker, Maker.
-            </p>
-            <div class="area_network flexbox-fcc">
-              <a href="#">
-                <img src="img/icons/linkedin.svg" class="linkedin" />
-              </a>
-              <a href="#">
-                <img src="img/icons/twitter.svg" class="twitter" />
-              </a>
-            </div>
-          </div>
-          <div class="area_info_startup_main">
-            <p class="area_title">Indie hacker & Saas founder</p>
-            <div class="startup_main">
-              <div class="startup_spacing">
-                <p class="text_style_1">Redsmin</p>
-                <p class="text_style_2">
-                  Leader depuis 2012 de l'administration et du monitoring de
-                  serveurs Redis.
-                </p>
-                <!-- ICI -->
-                <!-- Faire en sorte que Redsmin soit coller a la suite -->
-              </div>
-              <div class="startup_spacing">
-                <p class="text_style_1">Image charts</p>
-                <p class="text_style_2">
-                  Remplaçant de Google Image Charts depuis 2016, plus d'un
-                  million de graphiques générés par mois.
-                </p>
-                <!-- Faire en sorte que Image charts soit coller a la suite -->
-              </div>
-            </div>
-          </div>
-          <div class="area_info_travel_main">
-            <p class="area_title">CTO</p>
-            <div class="travel_main">
-              <p class="text_style_1">MotionDynamic</p>
-              <div class="spacing">
-                <p class="text_style_1">Ex CTO de Bringr</p>
-                <p class="text_style_2">Revendu en 2015 à iAdvize.</p>
-              </div>
-            </div>
-          </div>
-          <div class="area_info_adviser_main">
-            <p class="area_title">Consultant, conseiller et enseignant</p>
-            <div class="adviser_main">
-              <p class="text_style_2">
-                Cognix-system <br />Oxmoto<br /><br />
-                EPSI Nantes<br />
-                Université de Nantes<br />
-              </p>
-            </div>
-          </div>
-          <div class="area_info_speaker_main">
-            <p class="area_title">Speaker</p>
-            <div class="speaker_main">
-              <p class="text_style_2">
-                BreizhCamp 2018-2019 <br />
-                Devoxx 2019<br />
-                MixIT Lyon 2019<br />
-                Rivera Dev 2019<br />
-                Web2Day 2016-2017-2018-2019 <br />
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="info_fg_right flexbox-fcc">
-          <div class="rectangle_copy_1 flexbox-fcc">
-            <p class="rectangle_text_copy_1">
-              La vision, le leadership, le dynamisme et l'énergie de
-              François-Guillaume sont bien au-delà de la mission attendue. Ses
-              compétences techniques lui assurent un grand crédit auprès de
-              tous. C'est un excellent manager qui apporte aux collaborateurs de
-              son équipe communication, transparence, vision et technicité. Il
-              sait évaluer, recruter mais surtout recadrer quand c'est
-              nécessaire, dans la bienveillance et le respect. J'espère avoir
-              l'occasion de retravailler un jour avec lui !
-            </p>
-          </div>
-          <div class="rectangle_text_1 flexbox-fcc">
-            <p class="Fabien_Grellier">Fabien Grellier</p>
-            <p class="Fabien_Grellier_travel">
-              ex-Chef de Service Numérique Ouest-France,<br />
-              ex-Dir-Tech PagesJaunes.fr.
-            </p>
-          </div>
-          <div class="rectangle_copy_2 flexbox-fcc">
-            <p class="rectangle_text_copy_2">
-              François-Guillaume nous a accompagné dans notre projet de refonte
-              d'architecture. Son expertise très pointue, combinée à une
-              excellente pédagogie, lui ont permis de nous apporter des
-              solutions adaptées à notre taille et à notre contexte.
-              François-Guillaume a tous les modèles en tête, mais il ne cherche
-              pas à les plaquer sur les situations qu'il analyse. Au contraire,
-              il se projette dans la situation particulière de son client, et
-              sait, par son approche très pragmatique, personnaliser ses
-              conseils en s'adaptant aux moyens et aux capacités de chacun.
-              Bravo !
-            </p>
-          </div>
-          <div class="rectangle_text_2 flexbox-fcc">
-            <p class="Maxime_Duprez">Maxime Duprez</p>
-            <p class="Maxime_Duprez_travel">
-              DSI du groupe COMAP, <br />ex-DSI Olympique Lyonnais.
-            </p>
-          </div>
-          <div class="rectangle_copy_3 flexbox-fcc">
-            <p class="rectangle_text_copy_3">
-              A future « must have » -No doubt, given the highest impact and
-              relevance of François Guillaume’s keynotes !
-            </p>
-          </div>
-          <div class="rectangle_text_3 flexbox-fcc">
-            <p class="Thierry_Gaillet">Thierry Gaillet</p>
-            <p class="Thierry_Gaillet_travel">
-              Director, Orange Developper Relations.
-            </p>
-          </div>
-          <div class="rectangle_main_movie flexbox-fcc">
-            <p class="title_movie">Une vidéo vaut milles images :</p>
-            <div class="area_movie">
-              <img src="img/icons/video.svg" class="video" />
-              <a href="#"><p class="Voir-la-vidéo">Voir la vidéo</p></a>
-            </div>
-            <div class="area_movie">
-              <img src="img/icons/video.svg" class="video" />
-              <a href="#"><p class="Voir-la-vidéo">Voir la vidéo</p></a>
-            </div>
-            <div class="area_movie">
-              <img src="img/icons/video.svg" class="video" />
-              <a href="#"><p class="Voir-la-vidéo">Voir la vidéo</p></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container_bottom_main flexbox-fcc">
-      <div class="form-group">
-        <label class="label_bottom" for="inputLarge_bottom"
-          >Rester informé de la sortie du livre et de son avancée :</label
-        >
-        <div class="form-group-send">
-          <input
-            class="form-control form-control-lg"
-            type="text"
-            placeholder="Votre e-mail"
-            id="inputLarge, inputLarge_bottom"
-          />
-          <button type="button">
-            <img src="img/icons/send.svg" class="send" />
-          </button>
         </div>
       </div>
     </div>
