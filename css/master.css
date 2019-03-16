@@ -13,25 +13,3 @@ body {
   background: #ffffff;
   overflow-x: hidden;
 }
-
-.container_bottom_main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 203px;
-  background-color: #080a3a;
-}
-
-.label_bottom {
-  width: 330px;
-  height: 19px;
-  font-family: "Mada";
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: #ffffff;
-}
