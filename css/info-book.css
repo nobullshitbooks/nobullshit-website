@@ -5,9 +5,6 @@
 }
 
 .container_ib_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   width: 90vw;
   height: 65px;
@@ -27,9 +24,6 @@
 }
 
 .ib_montain_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   height: 620px;
   width: 100%;
@@ -37,9 +31,6 @@
 
 .ib_left_container,
 .ib_right_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-grow: 1;
   height: 672px;
 }
@@ -49,9 +40,6 @@
 }
 
 .ib_blue_area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   /* background: white; */
   height: 138px;
@@ -59,9 +47,6 @@
 }
 
 .ib_green_area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   /* background: white; */
   height: 160px;
@@ -69,9 +54,6 @@
 }
 
 .ib_red_area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   /* background: white; */
   height: 243px;
@@ -79,9 +61,6 @@
 }
 
 .ib_area_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   width: 100%;
   height: 33px;

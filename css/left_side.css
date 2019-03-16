@@ -1,7 +1,5 @@
 .container_no-bullshit_main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between !important;
   flex-direction: column;
   width: 75vw;
   height: 1733px;
@@ -9,9 +7,6 @@
 }
 
 .container_bullshit_title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   width: 385px;
   height: 39px;
@@ -40,9 +35,6 @@
 }
 
 .container_main_info_fg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   height: 1657px;
   width: 100%;
@@ -50,9 +42,7 @@
 
 .info_fg_left,
 .info_fg_right {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-around !important;
   flex-direction: column;
   width: 100%;
   height: 100%;
@@ -105,9 +95,7 @@
 .area_network {
   align-self: flex-start;
   margin-left: 8.5vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-around !important;
   width: 10%;
   height: 24px;
 }

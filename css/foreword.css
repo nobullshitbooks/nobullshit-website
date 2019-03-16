@@ -6,9 +6,6 @@
 }
 
 .foreword_left {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   flex-grow: 1;
   height: 697px;
@@ -94,9 +91,6 @@
 }
 
 .foreword_right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-grow: 1;
   height: 697px;
 }

@@ -1,7 +1,5 @@
 .container_main_menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-around !important;
   flex-direction: column;
   height: 1500px;
   width: 100%;
@@ -9,9 +7,7 @@
 }
 
 .container_row_menu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-around !important;
   height: 380px;
   width: 80%;
 }
@@ -19,9 +15,7 @@
 .area_red,
 .area_green,
 .area_blue {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-around !important;
   flex-direction: column;
   width: 361px;
   height: 360px;
@@ -99,9 +93,7 @@ ul li {
 }
 
 .rectangle_first_red {
-  display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-direction: row;
   width: 72.5vw;
   height: 451px;
@@ -152,9 +144,7 @@ ul li {
   color: #15196a;
 }
 .rectangle_first_blue {
-  display: flex;
   justify-content: space-around;
-  align-items: center;
   flex-direction: row;
   width: 72.5vw;
   height: 312px;
