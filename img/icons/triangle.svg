@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
-    <title>Icons/shapes/triangle</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icons/shapes/triangle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Fill-1" fill="#EE220D" points="24 9 0 39 48 39"></polygon>
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>31B1AD52-D1E8-4496-B9D4-0DA96BDC75B2</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="Icons/shapes/triangle" fill="#EE220D" stroke="#EE220D" stroke-width="2">
+            <path d="M24,10.6007811 L2.08062485,38 L45.9193752,38 L24,10.6007811 Z" id="Fill-1"></path>
+        </g>
     </g>
 </svg>

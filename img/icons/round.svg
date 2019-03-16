@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
-    <title>Icons/shapes/round</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icons/shapes/round" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M41,23.9997983 C41,33.3887643 33.3887643,41 24.0002017,41 C14.6112357,41 7,33.3887643 7,23.9997983 C7,14.6112357 14.6112357,7 24.0002017,7 C33.3887643,7 41,14.6112357 41,23.9997983" id="Fill-3" fill="#008F02"></path>
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>79A9037C-4EFD-449A-97B7-6575929575FB</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.5">
+        <g id="Icons/shapes/round" fill="#008F02" stroke="#008F02" stroke-width="2">
+            <path d="M41,23.9997983 C41,33.3887643 33.3887643,41 24.0002017,41 C14.6112357,41 7,33.3887643 7,23.9997983 C7,14.6112357 14.6112357,7 24.0002017,7 C33.3887643,7 41,14.6112357 41,23.9997983" id="Fill-3"></path>
+        </g>
     </g>
 </svg>

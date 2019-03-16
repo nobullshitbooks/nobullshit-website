@@ -1,15 +1,14 @@
 .container_main_menu {
   justify-content: space-around !important;
   flex-direction: column;
-  height: 1500px;
+  height: 90vh;
   width: 100%;
-  /* background: #f2f2f2; */
 }
 
 .container_row_menu {
   justify-content: space-around !important;
-  height: 380px;
-  width: 80%;
+  height: 39vh;
+  width: 100%;
 }
 
 .area_red,
@@ -17,17 +16,18 @@
 .area_blue {
   justify-content: space-around !important;
   flex-direction: column;
-  width: 361px;
-  height: 360px;
+  height: 100%;
   opacity: 0.2;
   border-radius: 8px;
-  border: solid 1.5px #15196a;
+  border: solid 1px #15196a;
   transition: 0.5s;
+  cursor: pointer;
+  background: #ffffff;
 }
 
-.area_red {
+.orange-actif {
   opacity: 1;
-  border: solid 1.5px #f5a623;
+  border: solid 1px #f5a623;
 }
 
 .area_red:hover,
@@ -35,7 +35,7 @@
 .area_blue:hover {
   opacity: 1;
   transition: 0.5s;
-  border: solid 1.5px #f5a623;
+  border: solid 1px #f5a623;
 }
 
 .menu_title {
@@ -44,10 +44,6 @@
   font-family: "Mada";
   font-size: 20px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
   text-align: center;
   color: #15196a;
 }
@@ -67,36 +63,33 @@ ul li {
   letter-spacing: normal;
   color: #15196a;
 }
-.li-red::before {
-  content: "•";
 
-  color: #ee220d;
+.li-red::before,
+.li-green::before,
+.li-blue::before {
+  content: "•";
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.li-red::before {
+  color: #ee220d;
 }
 
 .li-green::before {
-  content: "•";
   color: #008f02;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 .li-blue::before {
-  content: "•";
   color: #0080ff;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
 }
 
 .rectangle_first_red {
   justify-content: space-around;
   flex-direction: row;
   width: 72.5vw;
-  height: 451px;
+  height: 45vh;
   border-radius: 8px;
   box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
   border: solid 1px #f5a623;
@@ -104,26 +97,16 @@ ul li {
 }
 
 .Illustration {
-  width: 386px;
-  height: 387px;
+  height: 39vh;
   object-fit: contain;
 }
 
-.rectangle_red div {
-  display: flex;
-  flex-direction: row;
-}
-
 .rectangle_red_title {
-  width: 449px;
-  height: 37px;
+  width: 22vw;
+  height: 3.8vh;
   font-family: "Open Sans";
   font-size: 24px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
   color: #15196a;
 }
 .rectangle_red_oval {
@@ -132,15 +115,10 @@ ul li {
 }
 
 .rectangle_red_text {
-  width: 422px;
-  height: 248px;
+  width: 21vw;
+  height: 25vh;
   font-family: "Mada";
   font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
   color: #15196a;
 }
 .rectangle_first_blue {
@@ -152,6 +130,9 @@ ul li {
   box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
   border: solid 1px #f5a623;
   background-color: #ffffff;
+}
+.d-none {
+  display: none;
 }
 
 .Coming {
