@@ -1,0 +1,226 @@
+
+.info_fg_right {
+  justify-content: flex-start !important;
+}
+
+.rectangle_copy_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 527px;
+  height: 286px;
+  border-radius: 8px;
+  background-color: rgba(21, 25, 106, 0.1);
+}
+
+.rectangle_text_copy_1 {
+  width: 463px;
+  height: 222px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #080a3a;
+}
+
+.rectangle_text_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 527px;
+  height: 161px;
+}
+
+.Fabien_Grellier {
+  width: 127px;
+  height: 32px;
+  font-family: "Mada";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #080a3a;
+}
+
+.Fabien_Grellier_travel {
+  width: 254px;
+  height: 50px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #080a3a;
+}
+
+.rectangle_copy_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 527px;
+  height: 286px;
+  border-radius: 8px;
+  background-color: rgba(21, 25, 106, 0.1);
+}
+
+.rectangle_text_copy_2 {
+  width: 463px;
+  height: 222px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #080a3a;
+}
+
+.rectangle_text_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 527px;
+  height: 164px;
+}
+
+.Maxime_Duprez {
+  width: 147px;
+  height: 34px;
+  font-family: "Mada";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #080a3a;
+}
+
+.Maxime_Duprez_travel {
+  width: 254px;
+  height: 50px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #080a3a;
+}
+
+.rectangle_copy_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 527px;
+  height: 114px;
+  border-radius: 8px;
+  background-color: rgba(21, 25, 106, 0.1);
+}
+
+.rectangle_text_copy_3 {
+  width: 463px;
+  height: 50px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #080a3a;
+}
+
+.rectangle_text_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 527px;
+  height: 180px;
+}
+
+.Thierry_Gaillet {
+  width: 133px;
+  height: 31px;
+  font-family: "Mada";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #080a3a;
+}
+
+.Thierry_Gaillet_travel {
+  width: 197px;
+  height: 53px;
+  font-family: "Mada";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #080a3a;
+}
+
+.rectangle_main_movie {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 150px;
+  width: 527px;
+}
+
+.title_movie {
+  width: 336px;
+  height: 39px;
+  font-family: "Mada";
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #080a3a;
+}
+.area_movie {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 125px;
+  height: 24px;
+}
+
+.Voir-la-vidéo {
+  width: 84px;
+  height: 28px;
+  font-family: "Mada";
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #f5a623;
+}
