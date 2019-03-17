@@ -1,31 +1,53 @@
-.container_bottom_main {
+footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 203px;
+    height: 22vh;
     background-color: #080a3a;
 }
 
 .label_bottom {
-    width: 335px;
-    height: 19px;
+    width: 24vw;
+    height: 3vh;
     font-family: 'Mada';
     font-size: 15px;
     line-height: 1.33;
     color: #ffffff;
 }
-footer {
-    display: flex;
-    align-items: center;
-    height: 38px;
-    width: 100%;
+
+.form-group {
+    width: 25vw !important;
+}
+
+.form-control-lg {
+    border: 1px solid white;
+    background: #080a3a !important;
 }
 
 footer p {
-    margin-left: 168px;
-    width: 1000px;
-    height: 17px;
     font-family: 'Mada';
-    font-size: 14px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer_forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 20vw;
+}
+
+.footer_forms div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
 }
