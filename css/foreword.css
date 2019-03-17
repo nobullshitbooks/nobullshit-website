@@ -5,6 +5,10 @@
     height: 85vh;
 }
 
+.nav-link {
+    min-width: 147px;
+}
+
 /* Left Part */
 
 .foreword_left {
@@ -15,7 +19,6 @@
     height: 100%;
 }
 
-
 .foreword_title {
     width: 100%;
     font-family: 'Open Sans';
@@ -25,7 +28,7 @@
 }
 
 .foreword_paragraph {
-    width: 100%;
+    max-width: 460px;
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
@@ -87,33 +90,6 @@
     flex-grow: 1;
     height: 100%;
 }
-/*
-.foreword_round,
-.foreword_triangle,
-.foreword_losange {
-    position: relative;
-}
-
-.foreword_round {
-    z-index: 0;
-    right: 35.5vw;
-    top: 4vh;
-    height: 19vh;
-}
-
-.foreword_triangle {
-    z-index: 3;
-    right: 35.5vw;
-    top: 4vh;
-    height: 19vh;
-}
-
-.foreword_losange {
-    z-index: 3;
-    right: 35.5vw;
-    top: 4vh;
-    /* height: 19vh; */
-} */
 
 .Illustration-header {
     z-index: 1;
