@@ -1,28 +1,31 @@
 .container_bottom_main {
-  width: 100vw;
-  height: 203px;
-  background-color: #080a3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 203px;
+    background-color: #080a3a;
 }
 
 .label_bottom {
-  width: 335px;
-  height: 19px;
-  font-family: "Mada";
-  font-size: 15px;
-  line-height: 1.33;
-  color: #ffffff;
+    width: 335px;
+    height: 19px;
+    font-family: 'Mada';
+    font-size: 15px;
+    line-height: 1.33;
+    color: #ffffff;
 }
 footer {
-  display: flex;
-  align-items: center;
-  height: 38px;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    height: 38px;
+    width: 100%;
 }
 
 footer p {
-  margin-left: 168px;
-  width: 1000px;
-  height: 17px;
-  font-family: "Mada";
-  font-size: 14px;
+    margin-left: 168px;
+    width: 1000px;
+    height: 17px;
+    font-family: 'Mada';
+    font-size: 14px;
 }

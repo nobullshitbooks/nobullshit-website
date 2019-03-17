@@ -1,36 +1,45 @@
 .container_info_book {
-  height: 90vh;
+    height: 90vh;
 }
 
 .container_ib_title {
-  flex-direction: column;
-  height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 6vh;
 }
 
 .ib_title {
-  height: 3vh;
-  font-size: 32px;
-  font-family: "Open Sans";
-  font-weight: bold;
-  color: #15196a;
+    height: 3vh;
+    font-size: 32px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    color: #15196a;
 }
 
 .ib_montain_container {
-  flex-direction: row;
-  height: 90%;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 90%;
+    width: 100%;
 }
 
 .ib_left_container,
 .ib_right_container {
-  flex-grow: 1;
-  height: 672px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    height: 672px;
 }
 
 .ib_left_container {
-  /* border: 1px solid black; */
-  justify-content: space-around;
-  flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 /*  */
@@ -38,92 +47,98 @@
 .ib_blue_area,
 .ib_green_area,
 .ib_red_area {
-  width: 65%;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    flex-direction: column;
 }
 
 .ib_blue_area {
-  height: 15vh;
+    height: 15vh;
 }
 
 .ib_green_area {
-  height: 17vh;
+    height: 17vh;
 }
 
 .ib_red_area {
-  height: 25vh;
+    height: 25vh;
 }
 
 .ib_area_title {
-  flex-direction: row;
-  width: 100%;
-  height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 4vh;
 }
 
 .ib_blue_area .oval {
-  margin-left: 1vw;
+    margin-left: 1vw;
 }
 
 .oval {
-  margin-bottom: 1.2vh;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
+    margin-bottom: 1.2vh;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
 }
 
 .t_title_blue {
-  width: 100% !important;
-  padding-left: 1vw;
+    width: 100% !important;
+    padding-left: 1vw;
 }
 
 .blue {
-  background-color: #0080ff;
+    background-color: #0080ff;
 }
 
 .green {
-  background-color: #008f02;
+    background-color: #008f02;
 }
 .red {
-  background-color: #ee220d;
+    background-color: #ee220d;
 }
 
 .color_area_title {
-  width: 460px;
-  height: 33px;
-  font-family: "Open Sans";
-  font-size: 24px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: #15196a;
+    width: 460px;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #15196a;
 }
 
 .color_area_paragraph {
-  margin-left: 1.5vw;
-  font-family: "Mada";
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #15196a;
+    margin-left: 1.5vw;
+    font-family: 'Mada';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .blue_paragraph {
-  width: 479px;
-  height: 77px;
+    width: 479px;
+    height: 77px;
 }
 
 .green_paragraph {
-  width: 478px;
-  height: 100px;
+    width: 478px;
+    height: 100px;
 }
 
 .red_paragraph {
-  width: 479px;
-  height: 174px;
+    width: 479px;
+    height: 174px;
 }

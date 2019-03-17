@@ -1,141 +1,151 @@
 .container_main_menu {
-  justify-content: space-around !important;
-  flex-direction: column;
-  height: 90vh;
-  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
 }
 
 .container_row_menu {
-  justify-content: space-around !important;
-  height: 39vh;
-  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 39vh;
+    width: 100%;
 }
 
 .area_red,
 .area_green,
 .area_blue {
-  justify-content: space-around !important;
-  flex-direction: column;
-  height: 100%;
-  opacity: 0.2;
-  border-radius: 8px;
-  border: solid 1px #15196a;
-  transition: 0.5s;
-  cursor: pointer;
-  background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    opacity: 0.2;
+    border-radius: 8px;
+    border: solid 1px #15196a;
+    transition: 0.5s;
+    cursor: pointer;
+    background: #ffffff;
 }
 
 .orange-actif {
-  opacity: 1;
-  border: solid 1px #f5a623;
+    opacity: 1;
+    border: solid 1px #f5a623;
 }
 
 .area_red:hover,
 .area_green:hover,
 .area_blue:hover {
-  opacity: 1;
-  transition: 0.5s;
-  border: solid 1px #f5a623;
+    opacity: 1;
+    transition: 0.5s;
+    border: solid 1px #f5a623;
 }
 
 .menu_title {
-  width: 361px;
-  height: 34px;
-  font-family: "Mada";
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  color: #15196a;
+    width: 361px;
+    height: 34px;
+    font-family: 'Mada';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #15196a;
 }
 
 ul {
-  margin-left: 2vw;
-  list-style: none;
+    margin-left: 2vw;
+    list-style: none;
 }
 
 ul li {
-  font-family: "Mada";
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #15196a;
+    font-family: 'Mada';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .li-red::before,
 .li-green::before,
 .li-blue::before {
-  content: "•";
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+    content: '•';
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .li-red::before {
-  color: #ee220d;
+    color: #ee220d;
 }
 
 .li-green::before {
-  color: #008f02;
+    color: #008f02;
 }
 
 .li-blue::before {
-  color: #0080ff;
+    color: #0080ff;
 }
 
 .rectangle_first_red {
-  justify-content: space-around;
-  flex-direction: row;
-  width: 72.5vw;
-  height: 45vh;
-  border-radius: 8px;
-  box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
-  border: solid 1px #f5a623;
-  background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 72.5vw;
+    height: 45vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
+    border: solid 1px #f5a623;
+    background-color: #ffffff;
 }
 
 .Illustration {
-  height: 39vh;
-  object-fit: contain;
+    height: 39vh;
+    object-fit: contain;
 }
 
 .rectangle_red_title {
-  width: 22vw;
-  height: 3.8vh;
-  font-family: "Open Sans";
-  font-size: 24px;
-  font-weight: bold;
-  color: #15196a;
+    width: 22vw;
+    height: 3.8vh;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: bold;
+    color: #15196a;
 }
 .rectangle_red_oval {
-  margin-top: 1vh;
-  margin-right: 1vw;
+    margin-top: 1vh;
+    margin-right: 1vw;
 }
 
 .rectangle_red_text {
-  width: 21vw;
-  height: 25vh;
-  font-family: "Mada";
-  font-size: 16px;
-  color: #15196a;
+    width: 21vw;
+    height: 25vh;
+    font-family: 'Mada';
+    font-size: 16px;
+    color: #15196a;
 }
 .rectangle_first_blue {
-  justify-content: space-around;
-  flex-direction: row;
-  width: 72.5vw;
-  height: 312px;
-  border-radius: 8px;
-  box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
-  border: solid 1px #f5a623;
-  background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 72.5vw;
+    height: 312px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
+    border: solid 1px #f5a623;
+    background-color: #ffffff;
 }
 .d-none {
-  display: none;
+    display: none;
 }
 
 .Coming {
-  width: 290px;
-  height: 291px;
+    width: 290px;
+    height: 291px;
 }

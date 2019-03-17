@@ -1,26 +1,26 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 .container_main {
-  width: 80%;
-  /* background: #f2f2f2; */
-  /* height: 4960px; */
+    width: 80%;
+    /* background: #f2f2f2; */
+    /* height: 4960px; */
 }
 
 .flexbox-fcc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* REMPLACER container par section */

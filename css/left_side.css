@@ -1,197 +1,209 @@
 .container_no-bullshit_main {
-  justify-content: space-between !important;
-  flex-direction: column;
-  width: 75vw;
-  height: 1733px;
-  /* background: #f2f2f2; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 75vw;
+    height: 1733px;
+    /* background: #f2f2f2; */
 }
 
 .container_bullshit_title {
-  flex-direction: column;
-  width: 385px;
-  height: 39px;
-  font-family: "Open Sans";
-  font-size: 32px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: normal;
-  text-align: center;
-  color: #15196a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 385px;
+    height: 39px;
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #15196a;
 }
 
 .bullshit_title {
-  margin-top: 5vh;
-  width: 385px;
-  height: 20px;
-  font-size: 32px;
-  font-family: "Open Sans";
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  color: #15196a;
+    margin-top: 5vh;
+    width: 385px;
+    height: 20px;
+    font-size: 32px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .container_main_info_fg {
-  flex-direction: row;
-  height: 1657px;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 1657px;
+    width: 100%;
 }
 
 .info_fg_left,
 .info_fg_right {
-  justify-content: space-around !important;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-  flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
 }
 
 .info_fg_left {
-  background: white;
+    background: white;
 }
 
 .area_author_main {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  width: 100%;
-  height: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
 }
 
 .area_title {
-  z-index: 200;
-  margin-left: 9vw;
-  align-self: flex-start;
-  width: 336px;
-  height: 32px;
-  font-family: "Mada";
-  font-size: 20px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #15196a;
+    z-index: 200;
+    margin-left: 9vw;
+    align-self: flex-start;
+    width: 336px;
+    height: 32px;
+    font-family: 'Mada';
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .cv_fg {
-  margin-left: 9vw;
-  align-self: flex-start;
-  width: 322px;
-  height: 56px;
-  font-family: "Mada";
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #15196a;
+    margin-left: 9vw;
+    align-self: flex-start;
+    width: 322px;
+    height: 56px;
+    font-family: 'Mada';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .area_network {
-  align-self: flex-start;
-  margin-left: 8.5vw;
-  justify-content: space-around !important;
-  width: 10%;
-  height: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-start;
+    margin-left: 8.5vw;
+    width: 10%;
+    height: 24px;
 }
 
 .linkedin,
 .twitter {
-  width: 25px;
-  height: 24px;
-  object-fit: contain;
+    width: 25px;
+    height: 24px;
+    object-fit: contain;
 }
 
 .area_info_startup_main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
 }
 
 .text_style_1 {
-  font-weight: 500;
-  color: #15196a;
-  text-decoration: underline;
+    font-weight: 500;
+    color: #15196a;
+    text-decoration: underline;
 }
 .text_style_2 {
-  font-weight: 500;
-  color: #15196a;
+    font-weight: 500;
+    color: #15196a;
 }
 
 .startup_main {
-  margin-left: 9vw;
-  align-self: flex-start;
-  width: 322px;
-  height: 210px;
-  font-family: "Mada";
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #15196a;
+    margin-left: 9vw;
+    align-self: flex-start;
+    width: 322px;
+    height: 210px;
+    font-family: 'Mada';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .startup_spacing {
-  height: 10vh;
+    height: 10vh;
 }
 
 .area_info_travel_main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 138px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 138px;
 }
 
 .travel_main {
-  margin-left: 9vw;
-  align-self: flex-start;
-  width: 322px;
-  height: 106px;
-  font-family: "Mada";
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: #15196a;
+    margin-left: 9vw;
+    align-self: flex-start;
+    width: 322px;
+    height: 106px;
+    font-family: 'Mada';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #15196a;
 }
 
 .area_info_adviser_main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
 }
 
 .adviser_main {
-  margin-left: 9vw;
-  align-self: flex-start;
+    margin-left: 9vw;
+    align-self: flex-start;
 }
 
 .spacing {
-  line-height: 0.5;
+    line-height: 0.5;
 }
 .area_info_speaker_main {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
 }
 
 .speaker_main {
-  margin-left: 9vw;
-  align-self: flex-start;
+    margin-left: 9vw;
+    align-self: flex-start;
 }
