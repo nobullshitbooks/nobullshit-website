@@ -3,8 +3,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    width: 75vw;
-    height: 1733px;
+    width: 100%;
     /* background: #f2f2f2; */
 }
 
@@ -13,38 +12,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 385px;
-    height: 39px;
     font-family: 'Open Sans';
     font-size: 32px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1;
-    letter-spacing: normal;
     text-align: center;
     color: #15196a;
 }
 
 .bullshit_title {
-    margin-top: 5vh;
-    width: 385px;
-    height: 20px;
+    margin-top: 10vh;
+    height: 3vh;
     font-size: 32px;
     font-family: 'Open Sans';
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
     color: #15196a;
 }
 
 .container_main_info_fg {
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 1657px;
     width: 100%;
 }
 
@@ -80,10 +68,6 @@
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #15196a;
 }
 
@@ -94,11 +78,6 @@
     height: 56px;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #15196a;
 }
 
@@ -144,11 +123,6 @@
     height: 210px;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #15196a;
 }
 
@@ -171,11 +145,6 @@
     height: 106px;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #15196a;
 }
 

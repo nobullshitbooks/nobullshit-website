@@ -4,26 +4,25 @@
     align-items: center;
 }
 
-.rectangle_copy_1 {
-    width: 527px;
-    height: 286px;
-    border-radius: 8px;
-    background-color: rgba(21, 25, 106, 0.1);
+.info_number_1 {
+    height: 26vh;
 }
 
-.rectangle_text_copy_1 {
+.rectangle_copy_1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 527px;
+    height: 11vh;
+    border-radius: 8px;
+    border: solid 2px #080a3a;
+}
+
+.rectangle_text_copy_1 {
     width: 463px;
-    height: 222px;
+    height: 4vh;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #080a3a;
 }
 
@@ -33,35 +32,27 @@
     align-items: center;
     flex-direction: column;
     width: 527px;
-    height: 161px;
+    height: 13vh;
 }
 
-.Fabien_Grellier {
-    width: 127px;
-    height: 32px;
+.Thierry_Gaillet {
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #080a3a;
 }
 
-.Fabien_Grellier_travel {
-    width: 254px;
-    height: 50px;
+.Thierry_Gaillet_travel {
+    margin-top: -1.5vh;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #080a3a;
+}
+
+.info_number_2 {
+    height: 45vh;
 }
 
 .rectangle_copy_2 {
@@ -69,21 +60,16 @@
     justify-content: center;
     align-items: center;
     width: 527px;
-    height: 286px;
+    height: 29vh;
     border-radius: 8px;
-    background-color: rgba(21, 25, 106, 0.1);
+    border: solid 2px #080a3a;
 }
 
 .rectangle_text_copy_2 {
     width: 463px;
-    height: 222px;
+    height: 22vh;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #080a3a;
 }
 
@@ -92,34 +78,21 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 527px;
-    height: 164px;
+    height: 13vh;
 }
 
 .Maxime_Duprez {
-    width: 147px;
-    height: 34px;
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #080a3a;
 }
 
 .Maxime_Duprez_travel {
-    width: 254px;
-    height: 50px;
+    margin-top: -1.5vh;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #080a3a;
 }
@@ -129,21 +102,16 @@
     justify-content: center;
     align-items: center;
     width: 527px;
-    height: 114px;
+    height: 32vh;
     border-radius: 8px;
-    background-color: rgba(21, 25, 106, 0.1);
+    border: solid 2px #080a3a;
 }
 
 .rectangle_text_copy_3 {
     width: 463px;
-    height: 50px;
+    height: 20vh;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #080a3a;
 }
 
@@ -153,77 +121,61 @@
     align-items: center;
     flex-direction: column;
     width: 527px;
-    height: 180px;
+    height: 13vh;
 }
 
-.Thierry_Gaillet {
-    width: 133px;
-    height: 31px;
+.Fabien_Grellier {
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #080a3a;
 }
 
-.Thierry_Gaillet_travel {
-    width: 197px;
-    height: 53px;
+.Fabien_Grellier_travel {
+    margin-top: -1.5vh;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     text-align: center;
     color: #080a3a;
 }
 
 .rectangle_main_movie {
+    margin-top: 5vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-direction: column;
     align-items: flex-start;
-    height: 150px;
-    width: 527px;
+    width: 100%;
 }
 
 .title_movie {
-    width: 336px;
-    height: 39px;
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #080a3a;
 }
-.area_movie {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    width: 125px;
+
+.video {
+    width: 24px;
     height: 24px;
+    object-fit: contain;
+}
+.area_movie {
+    /* margin-top: 0.5vh; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    /* background: red; */
 }
 
 .Voir-la-vidéo {
-    width: 84px;
-    height: 28px;
+    /* background: green; */
     font-family: 'Mada';
     text-decoration: underline;
     font-size: 16px;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
     color: #f5a623;
 }

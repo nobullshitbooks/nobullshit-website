@@ -49,21 +49,8 @@
 .ib_red_area {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
     flex-direction: column;
-}
-
-.ib_blue_area {
-    height: 15vh;
-}
-
-.ib_green_area {
-    height: 17vh;
-}
-
-.ib_red_area {
-    height: 25vh;
 }
 
 .ib_area_title {
