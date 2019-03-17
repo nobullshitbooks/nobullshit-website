@@ -5,14 +5,25 @@
 }
 
 .info_number_1 {
+    width: 100%;
     height: 26vh;
+}
+
+.area_rectangle_quotes {
+    display: flex;
+    flex-direction: row;
+}
+
+.quotes {
+    align-self: flex-start;
+    margin-right: 1vw;
 }
 
 .rectangle_copy_1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 527px;
+    width: 100%;
     height: 11vh;
     border-radius: 8px;
     border: solid 2px #080a3a;
@@ -31,8 +42,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 527px;
     height: 13vh;
+}
+
+.Thierry_Gaillet,
+.Thierry_Gaillet_travel,
+.Maxime_Duprez,
+.Maxime_Duprez_travel,
+.Fabien_Grellier,
+.Fabien_Grellier_travel {
+    margin-left: 4vw;
 }
 
 .Thierry_Gaillet {
@@ -53,14 +72,15 @@
 
 .info_number_2 {
     height: 45vh;
+    width: 100%;
 }
 
 .rectangle_copy_2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 527px;
     height: 29vh;
+    width: 100%;
     border-radius: 8px;
     border: solid 2px #080a3a;
 }
@@ -97,12 +117,18 @@
     color: #080a3a;
 }
 
+.info_number_3 {
+    height: 50vh;
+    width: 100%;
+}
+
 .rectangle_copy_3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 527px;
     height: 32vh;
+    width: 100%;
+
     border-radius: 8px;
     border: solid 2px #080a3a;
 }
@@ -120,7 +146,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 527px;
     height: 13vh;
 }
 
