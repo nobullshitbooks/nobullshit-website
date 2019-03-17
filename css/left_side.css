@@ -34,6 +34,7 @@
     align-items: center;
     flex-direction: row;
     width: 100%;
+    height: 158vh;
 }
 
 .info_fg_left,
@@ -49,130 +50,60 @@
 
 .info_fg_left {
     background: white;
+    align-items: flex-start;
 }
 
-.area_author_main {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+.section_main_all_info {
+    margin-top: 4vh;
+    width: 22vw;
+    height: 100%;
+}
+
+.info_author {
     width: 100%;
-    height: 150px;
 }
 
-.area_title {
-    z-index: 200;
-    margin-left: 9vw;
-    align-self: flex-start;
-    width: 336px;
-    height: 32px;
+.info_title {
+    width: 100%;
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
-    color: #15196a;
+    color: #080a3a;
 }
 
-.cv_fg {
-    margin-left: 9vw;
-    align-self: flex-start;
-    width: 322px;
-    height: 56px;
+.info_paragraph {
+    width: 19vw;
     font-family: 'Mada';
     font-size: 16px;
-    color: #15196a;
+    color: #080a3a;
 }
 
-.area_network {
+.info_network {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    align-self: flex-start;
-    margin-left: 8.5vw;
-    width: 10%;
+    width: 8vw;
     height: 24px;
 }
-
-.linkedin,
-.twitter {
-    width: 25px;
-    height: 24px;
-    object-fit: contain;
-}
-
-.area_info_startup_main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 300px;
-}
-
-.text_style_1 {
-    font-weight: 500;
-    color: #15196a;
+.info_paragraph_title {
+    line-height: 0vh;
     text-decoration: underline;
 }
-.text_style_2 {
-    font-weight: 500;
-    color: #15196a;
-}
 
-.startup_main {
-    margin-left: 9vw;
-    align-self: flex-start;
-    width: 322px;
-    height: 210px;
-    font-family: 'Mada';
-    font-size: 16px;
-    color: #15196a;
-}
-
-.startup_spacing {
-    height: 10vh;
-}
-
-.area_info_travel_main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.info_founder,
+.info_cto,
+.info_consultant,
+.info_professor,
+.info_speaker {
     width: 100%;
-    height: 138px;
 }
 
-.travel_main {
-    margin-left: 9vw;
-    align-self: flex-start;
-    width: 322px;
-    height: 106px;
-    font-family: 'Mada';
-    font-size: 16px;
-    color: #15196a;
-}
-
-.area_info_adviser_main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-}
-
-.adviser_main {
-    margin-left: 9vw;
-    align-self: flex-start;
-}
-
-.spacing {
-    line-height: 0.5;
-}
-.area_info_speaker_main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-}
-
-.speaker_main {
-    margin-left: 9vw;
-    align-self: flex-start;
+.info_founder,
+.info_cto,
+.info_consultant,
+.info_professor,
+.info_speaker {
+    background: url('/img/Underligne.png');
+    background-repeat: no-repeat;
+    background-position: -1vw 2vh;
 }
