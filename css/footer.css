@@ -8,7 +8,7 @@ footer {
 }
 
 .label_bottom {
-    width: 24vw;
+    min-width: 24vw;
     height: 3vh;
     font-family: 'Mada';
     font-size: 15px;
@@ -17,7 +17,8 @@ footer {
 }
 
 .form-group {
-    width: 25vw !important;
+    min-width: 45vw;
+    /* width: 25vw !important; */
 }
 
 .form-control_footer {
@@ -42,7 +43,7 @@ footer a {
     align-items: center;
     flex-direction: column;
     height: 100%;
-    width: 20vw;
+    min-width: 20vw;
 }
 
 .footer_forms div {
