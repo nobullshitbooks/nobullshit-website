@@ -19,7 +19,7 @@
         flex-direction: column;
     }
     .container_info_book {
-        height: 111vh;
+        min-height: 140vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -41,7 +41,11 @@
     .info_fg_left {
         align-items: center;
     }
-
+    .Illustratio-author,
+    .Illustration-mountains,
+    .Illustration-header {
+        width: 100%;
+    }
     .container_row_menu {
         display: none;
     }
@@ -52,5 +56,14 @@
     }
     footer p {
         text-align: center;
+    }
+    .form-group_main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100%;
+    }
+    .form-group {
+        min-width: 80%;
     }
 }

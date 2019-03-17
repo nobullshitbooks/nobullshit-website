@@ -16,8 +16,7 @@ footer {
     color: #ffffff;
 }
 
-.form-group {
-    /* min-width: 45vw; */
+.form-group_main {
     max-width: 22vw;
 }
 
