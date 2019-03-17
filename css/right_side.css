@@ -163,7 +163,7 @@
 }
 
 .rectangle_main_movie {
-    margin-top: 5vh;
+    margin-top: 2vh;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -186,7 +186,6 @@
 .area_movie {
     /* margin-top: 0.5vh; */
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     flex-direction: row;
     width: 100%;
@@ -195,6 +194,8 @@
 
 .Voir-la-vidéo {
     /* background: green; */
+    margin-left: 1vw;
+    margin-top: 2vh;
     font-family: 'Mada';
     text-decoration: underline;
     font-size: 16px;
