@@ -3,7 +3,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 22vh;
+    min-height: 22vh;
     background-color: #080a3a;
 }
 
@@ -17,8 +17,8 @@ footer {
 }
 
 .form-group {
-    min-width: 45vw;
-    /* width: 25vw !important; */
+    /* min-width: 45vw; */
+    max-width: 22vw;
 }
 
 .form-control_footer {

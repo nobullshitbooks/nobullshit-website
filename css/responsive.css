@@ -35,9 +35,22 @@
     .container_main_info_fg {
         flex-direction: column;
     }
+    .section_main_all_info {
+        width: 70%;
+    }
+    .info_fg_left {
+        align-items: center;
+    }
 
-    .container_row_menu,
-    footer {
+    .container_row_menu {
         display: none;
+    }
+    footer {
+        flex-direction: column-reverse;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+    footer p {
+        text-align: center;
     }
 }
