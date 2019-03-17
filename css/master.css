@@ -17,10 +17,4 @@ body {
     /* height: 4960px; */
 }
 
-.flexbox-fcc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* REMPLACER container par section */
