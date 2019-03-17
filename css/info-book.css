@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 100%;
     flex-direction: column;
 }
 
@@ -75,20 +75,27 @@
     height: 4vh;
 }
 
-.ib_blue_area .oval {
-    margin-left: 1vw;
+.ib_area_text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 75%;
+}
+
+.ib_area_text div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 .oval {
     margin-bottom: 1.2vh;
+    margin-right: 1vw;
     width: 8px;
     height: 8px;
     border-radius: 50%;
-}
-
-.t_title_blue {
-    width: 100% !important;
-    padding-left: 1vw;
 }
 
 .blue {
@@ -103,42 +110,17 @@
 }
 
 .color_area_title {
-    width: 460px;
     height: 33px;
     font-family: 'Open Sans';
     font-size: 24px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
+    text-align: left;
     color: #15196a;
 }
 
 .color_area_paragraph {
-    margin-left: 1.5vw;
     font-family: 'Mada';
     font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
     line-height: 1.5;
-    letter-spacing: normal;
     color: #15196a;
-}
-
-.blue_paragraph {
-    width: 479px;
-    height: 77px;
-}
-
-.green_paragraph {
-    width: 478px;
-    height: 100px;
-}
-
-.red_paragraph {
-    width: 479px;
-    height: 174px;
 }
