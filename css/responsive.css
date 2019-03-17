@@ -1,0 +1,43 @@
+@media (max-width: 980px) {
+    body {
+        width: 100%;
+    }
+    .container_main {
+        width: 90%;
+    }
+
+    .navbar-toggler {
+        border: none !important;
+    }
+    .container_foreword {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 120vh;
+    }
+    .ib_montain_container {
+        flex-direction: column;
+    }
+    .container_info_book {
+        height: 111vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .rectangle_first_red {
+        flex-direction: column;
+    }
+
+    .rectangle_red {
+        width: 90%;
+    }
+    .container_main_info_fg {
+        flex-direction: column;
+    }
+
+    .container_row_menu,
+    footer {
+        display: none;
+    }
+}
