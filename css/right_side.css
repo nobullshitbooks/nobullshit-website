@@ -164,6 +164,7 @@
 
 .rectangle_main_movie {
     margin-top: 2vh;
+    margin-left: 8vw;
     display: flex;
     justify-content: space-around;
     flex-direction: column;

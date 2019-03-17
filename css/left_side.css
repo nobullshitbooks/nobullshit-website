@@ -52,6 +52,10 @@
     background: white;
     align-items: flex-start;
 }
+.Illustratio-author,
+.section_main_all_info {
+    margin-left: 2.5vw;
+}
 
 .section_main_all_info {
     margin-top: 4vh;
