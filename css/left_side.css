@@ -86,7 +86,7 @@
     justify-content: space-between;
     align-items: center;
     /* width: 8vw; */
-    min-width: 8vw;
+    max-width: 8vw;
     height: 24px;
 }
 .info_paragraph_title {
