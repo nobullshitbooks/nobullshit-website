@@ -5,6 +5,7 @@ footer {
     width: 100vw;
     min-height: 22vh;
     background-color: #080a3a;
+    flex-basis: auto;
 }
 
 .label_bottom {
@@ -42,12 +43,11 @@ footer a {
     align-items: center;
     flex-direction: column;
     height: 100%;
-    min-width: 20vw;
 }
 
 .footer_forms div {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 70%;
+    width: 9vw;
 }
