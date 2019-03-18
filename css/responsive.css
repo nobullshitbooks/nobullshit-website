@@ -41,6 +41,12 @@
     .info_fg_left {
         align-items: center;
     }
+    .area_rectangle_quotes {
+        flex-direction: column;
+    }
+    .quotes {
+        align-self: center;
+    }
     .Illustratio-author,
     .Illustration-mountains,
     .Illustration-header {
