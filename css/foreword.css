@@ -2,7 +2,8 @@
     display: flex;
     /* width: 100%; */
     flex-direction: row;
-    height: 85vh;
+    min-height: 85vh;
+    /* height: 85vh; */
 }
 
 .nav-link {
@@ -16,7 +17,7 @@
     justify-content: center;
     flex-direction: column;
     flex-grow: 1;
-    height: 100%;
+    min-height: 100%;
 }
 
 .foreword_title {
@@ -88,7 +89,7 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    height: 100%;
+    min-height: 100%;
 }
 
 .Illustration-header {

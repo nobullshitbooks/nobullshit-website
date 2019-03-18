@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     height: 90vh;
+    /* height: 90vh; */
     /* width: 100%; */
     min-width: 100%;
 }
@@ -12,8 +13,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 39vh;
+    flex-direction: row;
+    min-height: 39vh;
     min-width: 100%;
+    flex-basis: auto;
 }
 
 .area_red,
@@ -23,7 +26,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
     opacity: 0.2;
     border-radius: 8px;
     border: solid 1px #15196a;
@@ -47,7 +50,7 @@
 
 .menu_title {
     width: 361px;
-    height: 34px;
+    min-height: 34px;
     font-family: 'Mada';
     font-size: 20px;
     font-weight: 600;
@@ -105,7 +108,7 @@ ul li {
 }
 
 .Illustration {
-    height: 39vh;
+    min-height: 39vh;
     object-fit: contain;
 }
 
@@ -131,7 +134,7 @@ ul li {
     align-items: center;
     flex-direction: row;
     width: 72.5vw;
-    height: 312px;
+    min-height: 312px;
     border-radius: 8px;
     box-shadow: 0 2px 15px 0 rgba(41, 40, 61, 0.1);
     border: solid 1px #f5a623;
@@ -143,5 +146,5 @@ ul li {
 
 .Coming {
     width: 290px;
-    height: 291px;
+    min-height: 291px;
 }

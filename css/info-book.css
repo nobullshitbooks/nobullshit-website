@@ -1,5 +1,5 @@
 .container_info_book {
-    height: 90vh;
+    max-height: 90vh;
 }
 
 .container_ib_title {
@@ -11,7 +11,7 @@
 }
 
 .ib_title {
-    height: 3vh;
+    min-height: 3vh;
     font-size: 32px;
     font-family: 'Open Sans';
     font-weight: bold;
@@ -28,6 +28,7 @@
 
 .ib_left_container,
 .ib_right_container {
+    min-height: 83vh;
     display: flex;
     justify-content: center;
     align-items: center;

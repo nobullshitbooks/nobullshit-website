@@ -5,6 +5,7 @@
     flex-direction: column;
     width: 100%;
     /* background: #f2f2f2; */
+    min-height: 170vh;
 }
 
 .container_bullshit_title {
