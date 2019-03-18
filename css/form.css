@@ -1,0 +1,52 @@
+.container_form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 55vh;
+    width: 100%;
+}
+
+.form_left_area,
+.form_right_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+
+.form_right_area {
+    justify-content: flex-start;
+}
+
+.form_right_area .custom-select {
+    width: 15vw;
+    height: 6vh;
+    border-radius: 4px;
+    border: solid 1px #080a3a;
+}
+.form_right_area button {
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+    width: 15vw;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #f5a623;
+    padding: 0 1vw 0 1vw;
+}
+
+.form_right_area .send {
+    margin-top: 2vh;
+}
+
+.form_button_text {
+    margin-top: 1.5vh;
+    font-family: 'Mada';
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}

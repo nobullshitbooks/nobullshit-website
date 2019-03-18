@@ -92,6 +92,25 @@
     min-height: 100%;
 }
 
+.foreword_round,
+.foreword_triangle,
+.foreword_losange {
+    position: relative;
+}
+
+.foreword_round {
+    top: 3.8vh;
+    left: -25.65vw;
+}
+.foreword_triangle {
+    top: -4.7vh;
+    left: -16.8vw;
+}
+.foreword_losange {
+    top: -17.3vh;
+    left: -31.4vw;
+}
+
 .Illustration-header {
     z-index: 1;
     width: 554px;

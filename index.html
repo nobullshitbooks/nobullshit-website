@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,6 +45,7 @@
         <link rel="stylesheet" title="master" href="css/right_side.css" />
         <link rel="stylesheet" title="master" href="css/footer.css" />
         <link rel="stylesheet" title="master" href="css/responsive.css" />
+        <link rel="stylesheet" title="master" href="css/form.css" />
     </head>
     <body>
         <header>
@@ -127,25 +128,69 @@
                         src="img/Desktop/IllU-header.png"
                         class="Illustration-header"
                     />
-                    <!--
+
                         <img
                             class="foreword_round"
-                            src="img/icons/round.svg"
+                            src="img/icons/big_round.svg"
                             alt="round"
                         />
                         <img
                             class="foreword_triangle"
-                            src="img/icons/triangle.svg"
+                            src="img/icons/big_triangle.svg"
                             alt="triangle"
                         />
+
                         <img
                             class="foreword_losange"
-                            src="img/icons/losange.svg"
+                            src="img/icons/big_losange.svg"
                             alt="losange"
                         />
-                    -->
+
                 </div>
             </div>
+            <!-- Form -->
+
+            <div class="container_form">
+              <div class="form_left_area">
+                <img src="img/Desktop/Illu-header.png" alt="">
+              </div>
+              <div class="form_right_area">
+                <div class="form-group">
+                  <label class="foreword_info_input"
+                      >Merci de m’aider à mieux vous connaitre !</label
+                  >
+                   <select class="custom-select">
+                     <option selected="">Mon entreprise</option>
+                     <option value="1">Saas</option>
+                     <option value="2">Startup (0-200 personnes)</option>
+                     <option value="3">Scale-up (+100)</option>
+                     <option value="4">Micro entreprise (&lt;10 personnes)</option>
+                     <option value="5">PME (10-250 personnes)</option>
+                     <option value="6">ETI (250-4999 personnes)</option>
+                     <option value="7">Grande entreprise (&lt;5000 personnes)</option>
+                   </select>
+                 </div>
+                 <div class="form-group">
+                    <select class="custom-select">
+                      <option selected="">Mon métier</option>
+                      <option value="1">Développeur</option>
+                      <option value="2">Lead-dev / Tech-Lead</option>
+                      <option value="3">Architecte</option>
+                      <option value="4">Chief Engineering</option>
+                      <option value="5">Chief Technical Officer (CTO)</option>
+                      <option value="6">Directeur Système d'Information (DSI)</option>
+                      <option value="6">Autre...</option>
+                    </select>
+                  <button type="button">
+                    <p class="form_button_text">Envoyer mes réponses</p>
+                    <img src="img/icons/send.svg" class="send" />
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+
 
             <!-- Info book -->
 
@@ -165,7 +210,6 @@
                                         8848 m
                                     </p>
                                 </div>
-                                <!-- <br /> -->
                                 <p class="color_area_paragraph blue_paragraph"
                                     >Quels principes pratiques respecter pour
                                     construire et affiner sa vision technologie
