@@ -1,0 +1,34 @@
+@mixin headings {
+	margin: 0;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+}
+
+.c-h1 {
+	@include headings;
+	font-size: $h1-font-size;
+	@include media-breakpoint-down(xs) {
+    font-size: 34px;
+  }
+}
+
+.c-h2 {
+	@include headings;
+	color: $blue10;
+	font-size: $h2-font-size;
+	@include media-breakpoint-down(xs) {
+    font-size: 31px;
+  }
+}
+
+.c-h3 {
+	@include headings;
+	font-size: $h3-font-size;
+	@include media-breakpoint-down(xs) {
+    font-size: 22px;
+  }
+}
+
+.c-p {
+	margin: 0;
+}

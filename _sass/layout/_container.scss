@@ -1,0 +1,6 @@
+.l-container-340 {
+  @include media-breakpoint-up(md) {
+    max-width: 340px;
+    width: 100%;
+	}
+}

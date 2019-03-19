@@ -1,0 +1,21 @@
+// Placeholder mixin
+// Custom the input placeholders
+// -------------------------
+
+@mixin placeholder($color: inherit) {
+	&::-webkit-input-placeholder {
+		color: $color;
+	}
+	&::-moz-placeholder {
+		color: $color;
+	}
+	&:-moz-placeholder {
+		color: $color;
+	}
+	&:-ms-input-placeholder {
+		color: $color;
+	}
+	&:invalid {
+		color: $color;
+	}
+}

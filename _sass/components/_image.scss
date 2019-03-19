@@ -1,0 +1,17 @@
+.c-img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+
+	&--full-width {
+		width: 100%;
+	}
+
+	&--h48 {
+		height: 48px;
+	}
+
+	&--w24 {
+		width: 24px;
+	}
+}

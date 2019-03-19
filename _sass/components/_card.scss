@@ -1,0 +1,15 @@
+.c-card {
+  border-radius: $border-radius-large;
+  border: solid 1px rgba(#080a39, 0.20);
+  padding: 20px 30px;
+
+  &--active {
+    box-shadow: $shadow-default;
+    border-color: $yellow10;
+  }
+
+  &--large {
+    padding: 32px;
+    border: solid 2px rgba(#080a39, 0.1);
+  }
+}

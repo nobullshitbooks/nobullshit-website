@@ -1,0 +1,35 @@
+.l-grid-table {
+	display: table;
+	width: 100%;
+	& > &__cell {
+		display: table-cell;
+		vertical-align: middle;
+		white-space: nowrap;
+		&--main {
+			width: 100%;
+			white-space: normal;
+		}
+	}
+	&--top {
+		.l-grid-table__cell:not(.l-grid-table__cell--main) {
+			@include media-breakpoint-up(md) {
+				padding-top: 4px;
+			}
+		}
+		> .l-grid-table__cell {
+			vertical-align: top;
+		}
+	}
+	&--responsive {
+		@include media-breakpoint-down(sm) {
+			text-align: center;
+			> .l-grid-table__cell {
+				display: block;
+				white-space: normal;
+			}
+			.l-grid-table__cell + .l-grid-table__cell {
+				margin-top: 10px;
+			}
+		}
+	}
+}

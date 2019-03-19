@@ -1,0 +1,40 @@
+$input-height: 56px;
+
+.c-form-control {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	background-color: transparent;
+	border: solid 1px $blue10;
+	border-radius: $border-radius;
+	// Usefull to reset default border radius on ios
+	-webkit-appearance: none;
+	height: $input-height;
+	line-height: $input-height;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	&--w280 {
+		width: 280px;
+    max-width: 100%;
+		@include media-breakpoint-down(xs) {
+			display: block;
+	    width: 280px;
+			margin: auto;
+			text-align: center;
+	  }
+	}
+
+	@include placeholder(rgba(#080a39, 0.75));
+
+	&--white {
+		border: solid 1px $white;
+
+		@include placeholder(rgba(255, 255, 255, 0.58));
+	}
+
+	&:hover,
+	&:focus {
+		outline: 0;
+	}
+}

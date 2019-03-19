@@ -1,0 +1,17 @@
+.l-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 80px;
+	}
+
+  nav {
+    text-align: center;
+
+    a {
+      padding-left: 28px;
+      padding-right: 28px;
+    }
+  }
+}

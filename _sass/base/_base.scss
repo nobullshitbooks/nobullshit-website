@@ -1,0 +1,76 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 16px;
+  @include media-breakpoint-down(xs) {
+    font-size: 14px;
+  }
+}
+
+body {
+  // relative is necessary when using scrollspy js from bootstrap
+  position: relative;
+  // Reset browser margin
+	margin: 0;
+	// Default styling
+	font-family: $font-family-base;
+	line-height: $line-height-base;
+	color: $blue10;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+	background-color: $white;
+}
+
+// Reset font-size and margin of title
+h1, h2, h3 {
+  margin: 0;
+  font-size: inherit;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+/**
+ * Basic styles for hr
+ */
+hr {
+  border: 0;
+  margin: 0;
+  height: 1px;
+  background-color: $black;
+}
+
+button {
+  font: inherit;
+}

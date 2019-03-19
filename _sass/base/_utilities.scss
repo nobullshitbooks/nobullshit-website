@@ -1,0 +1,183 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS utility classes.
+// -----------------------------------------------------------------------------
+
+// 1. Display
+.u-inline-center { text-align: center !important; }
+.u-inline-center-sm-down {
+  @include media-breakpoint-down(sm) {
+    text-align: center !important;
+  }
+}
+.u-inline-block { display: inline-block !important; }
+.u-block { display: block !important; }
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-overflow-hidden-xs-down {
+  @include media-breakpoint-down(xs) {
+    overflow: hidden;
+  }
+}
+
+.u-hide-sm-down {
+  @include media-breakpoint-down(sm) {
+    display: none !important;
+  }
+}
+.u-hide-sm-up {
+  @include media-breakpoint-up(md) {
+    display: none !important;
+  }
+}
+
+.u-hide-xs-down {
+  @include media-breakpoint-down(xs) {
+    display: none !important;
+  }
+}
+.u-hide-xs-up {
+  @include media-breakpoint-up(sm) {
+    display: none !important;
+  }
+}
+
+.u-small { font-size: 14px; }
+.u-large {
+  font-size: 20px;
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 18px;
+  }
+}
+
+.u-fweight-600 {
+  font-weight: 600;
+}
+
+// Colors
+.u-white { color: $white; }
+
+// Background
+
+// 7. Margin
+$margin: 8 10 16 24 32 36 48 64 80 100;
+
+@each $item in $margin {
+  .u-margin-#{$item} {
+    margin: #{$item}px !important;
+  }
+  .u-margin-t-#{$item} {
+    margin-top: #{$item}px !important;
+  }
+  .u-margin-r-#{$item} {
+    margin-right: #{$item}px !important;
+  }
+  .u-margin-b-#{$item} {
+    margin-bottom: #{$item}px !important;
+  }
+  .u-margin-l-#{$item} {
+    margin-left: #{$item}px !important;
+  }
+  .u-margin-x-#{$item} {
+    margin-left: #{$item}px !important;
+    margin-right: #{$item}px !important;
+  }
+  .u-margin-y-#{$item} {
+    margin-top: #{$item}px !important;
+    margin-bottom: #{$item}px !important;
+  }
+}
+
+.u-margin-t-16-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-top: 16px !important;
+  }
+}
+.u-margin-t-24-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-top: 24px !important;
+  }
+}
+.u-margin-t-30-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-top: 30px !important;
+  }
+}
+.u-margin-t-40-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-top: 40px !important;
+  }
+}
+.u-margin-t-80-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-top: 80px !important;
+  }
+}
+.u-margin-x-reset-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.u-margin-b-minus30-sm-up {
+  @include media-breakpoint-up(md) {
+    margin-bottom: -30px !important;
+  }
+}
+
+// 8. Padding
+$padding: 10;
+
+@each $item in $padding {
+  .u-padding-#{$item} {
+    padding: #{$item}px !important;
+  }
+  .u-padding-t-#{$item} {
+    padding-top: #{$item}px !important;
+  }
+  .u-padding-r-#{$item} {
+    padding-right: #{$item}px !important;
+  }
+  .u-padding-b-#{$item} {
+    padding-bottom: #{$item}px !important;
+  }
+  .u-padding-l-#{$item} {
+    padding-left: #{$item}px !important;
+  }
+  .u-padding-x-#{$item} {
+    padding-left: #{$item}px !important;
+    padding-right: #{$item}px !important;
+  }
+  .u-padding-y-#{$item} {
+    padding-top: #{$item}px !important;
+    padding-bottom: #{$item}px !important;
+  }
+}
+
+.u-padding-reset-sm-down {
+  @include media-breakpoint-down(sm) {
+    padding: 0 !important;
+  }
+}
+.u-padding-b-90-sm-down {
+  @include media-breakpoint-down(sm) {
+    padding-bottom: 90px !important;
+  }
+}
+
+// 9. Images
+.u-object-fit-cover {
+	// see https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/object-fit
+	// Note that dimensions are mandatory
+	object-fit: cover;
+	font-family: "object-fit: cover";
+}
+.u-object-fit-contain {
+	// see https://github.com/aFarkas/lazysizes/tree/gh-pages/plugins/object-fit
+	// Note that dimensions are mandatory
+	object-fit: contain;
+	font-family: "object-fit: contain";
+	background: 0;
+}
