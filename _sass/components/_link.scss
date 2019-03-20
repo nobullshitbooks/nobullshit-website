@@ -23,4 +23,22 @@
       color: $yellow10;
     }
   }
+
+  &--icon-video {
+    position: relative;
+    display: block;
+    padding-left: 40px;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      content: '';
+      width: 24px;
+      height: 24px;
+      background-size: cover;
+      background-image: url('/assets/img/video.svg');
+    }
+  }
 }

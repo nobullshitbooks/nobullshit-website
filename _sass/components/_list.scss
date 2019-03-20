@@ -9,4 +9,35 @@
 	li + li {
 		margin-top: 10px;
 	}
+
+	&--bullet {
+		li {
+			position: relative;
+			padding-left: 24px;
+
+			&::before {
+				position: absolute;
+				left: 0;
+				top: 7px;
+				display: block;
+				content: '';
+				width: 8px;
+			  height: 8px;
+				border-radius: 50%;
+			  background-color: $red10;
+			}
+		}
+	}
+
+	&--blue {
+		li::before {
+			background-color: $blue20;
+		}
+	}
+
+	&--green {
+		li::before {
+			background-color: $green10;
+		}
+	}
 }

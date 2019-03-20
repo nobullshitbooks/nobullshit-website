@@ -1,0 +1,89 @@
+$button-height: 56px;
+
+// ------------------------
+// Mixin Button
+// ------------------------
+@mixin button() {
+	display: inline-block;
+	padding: 0 16px;
+	height: $button-height;
+	line-height: $button-height;
+	text-align: center;
+	border-radius: $border-radius;
+	transition: color $transition;
+	font-size: 16px;
+
+	@include media-breakpoint-down(xs) {
+    font-size: 13px;
+  }
+
+	// Reset style if the button is in a button tag
+	border: 0;
+	cursor: pointer;
+
+	&:disabled {
+		opacity: 0.3;
+	}
+
+	&:focus,
+	&:hover {
+		outline: 0;
+	}
+}
+
+// ------------------------
+// Mixin Button variant
+// ------------------------
+@mixin button-variant($color-main, $color-text: $white) {
+	color: $color-text;
+	background-color: $color-main;
+
+	&:focus,
+	&:hover {
+		color: rgba($color-text,.5);
+		text-decoration: none;
+	}
+
+	&:disabled {
+		// TODO:
+	}
+}
+
+// ------------------------
+// Mixin Stroked Button
+// ------------------------
+@mixin button-variant-stroke($color-main, $color-text-hover: $white) {
+	color: $color-main;
+	background-color: transparent;
+	border: solid 1px $color-main;
+	box-shadow: none;
+	// -2 equals to the border*2
+	line-height: calc(#{$button-height} - 2px);
+	transition: background-color $transition,
+							color $transition;
+
+	&:focus,
+	&:hover {
+		color: $color-text-hover;
+		background-color: $color-main;
+	}
+}
+
+.c-button {
+	@include button;
+	@include button-variant($yellow10, $white);
+
+	&--full-width {
+		text-align: left;
+		width: 100%;
+	}
+
+	&--w280 {
+		width: 280px;
+    max-width: 100%;
+		@include media-breakpoint-down(lg) {
+			display: block;
+			margin: auto;
+	  }
+	}
+}

@@ -1,6 +1,18 @@
 .l-footer {
+  position: relative;
   margin-top: 80px;
   background-color: $blue10;
   padding-top: 55px;
   padding-bottom: 55px;
+
+  &__ele {
+    @include media-breakpoint-up(lg) {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto !important;
+    }
+  }
 }

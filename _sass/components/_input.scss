@@ -17,17 +17,16 @@ $input-height: 56px;
 	&--w280 {
 		width: 280px;
     max-width: 100%;
-		@include media-breakpoint-down(xs) {
+		@include media-breakpoint-down(lg) {
 			display: block;
-	    width: 280px;
 			margin: auto;
-			text-align: center;
 	  }
 	}
 
 	@include placeholder(rgba(#080a39, 0.75));
 
 	&--white {
+		color: $white;
 		border: solid 1px $white;
 
 		@include placeholder(rgba(255, 255, 255, 0.58));
@@ -37,4 +36,34 @@ $input-height: 56px;
 	&:focus {
 		outline: 0;
 	}
+}
+
+.c-addon-container {
+	display: inline-block;
+	position: relative;
+	.c-img {
+		position: absolute;
+		right: 20px;
+		top: 50%;
+		transform: translateY(-50%);
+		pointer-events: none;
+	}
+
+	&--rotate {
+		.c-img {
+			transform: translateY(-50%) rotate(180deg);
+		}
+	}
+}
+
+#mc_embed_signup div.mce_inline_error {
+	background-color: transparent !important;
+	color: $red10 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	font-weight: normal !important;
+}
+
+#mc_embed_signup input.mce_inline_error {
+    border-color: $red10 !important;
 }

@@ -12,4 +12,28 @@
     padding: 32px;
     border: solid 2px rgba(#080a39, 0.1);
   }
+
+  &--quote {
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -16px;
+      transform: translateX(-100%);
+      display: block;
+      content: '';
+      background-image: url('/assets/img/quotes.svg');
+      width: 42px;
+      height: 42px;
+      background-size: cover;
+
+      @include media-breakpoint-down(sm) {
+        top: -5px;
+        transform: translateY(-100%);
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+  }
 }

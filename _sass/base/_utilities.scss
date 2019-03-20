@@ -9,6 +9,11 @@
     text-align: center !important;
   }
 }
+.u-inline-center-lg-down {
+  @include media-breakpoint-down(lg) {
+    text-align: center !important;
+  }
+}
 .u-inline-block { display: inline-block !important; }
 .u-block { display: block !important; }
 .u-uppercase {
@@ -47,7 +52,7 @@
 .u-large {
   font-size: 20px;
   @include media-breakpoint-down(sm) {
-    padding-bottom: 18px;
+    font-size: 18px;
   }
 }
 
@@ -61,7 +66,7 @@
 // Background
 
 // 7. Margin
-$margin: 8 10 16 24 32 36 48 64 80 100;
+$margin: 8 10 16 24 32 36 40 48 64 80 100;
 
 @each $item in $margin {
   .u-margin-#{$item} {
@@ -109,6 +114,11 @@ $margin: 8 10 16 24 32 36 48 64 80 100;
     margin-top: 40px !important;
   }
 }
+.u-margin-t-64-sm-down {
+  @include media-breakpoint-down(sm) {
+    margin-top: 64px !important;
+  }
+}
 .u-margin-t-80-sm-down {
   @include media-breakpoint-down(sm) {
     margin-top: 80px !important;
@@ -124,6 +134,11 @@ $margin: 8 10 16 24 32 36 48 64 80 100;
 .u-margin-b-minus30-sm-up {
   @include media-breakpoint-up(md) {
     margin-bottom: -30px !important;
+  }
+}
+.u-margin-t-40-lg-down {
+  @include media-breakpoint-down(lg) {
+    margin-top: 40px !important;
   }
 }
 
@@ -180,4 +195,84 @@ $padding: 10;
 	object-fit: contain;
 	font-family: "object-fit: contain";
 	background: 0;
+}
+
+// 10 underline
+.u-underline {
+  position: relative;
+
+  &::after {
+    z-index: -1;
+    position: absolute;
+    display: block;
+    content: '';
+    width: 172px;
+    height: 13px;
+    left: 50%;
+    bottom: -7px;
+    transform: translate(-50%, 100%);
+    background-size: cover;
+    background-image: url('/assets/img/soulignement.png');
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+     only screen and (-o-min-device-pixel-ratio: 3/2),
+     only screen and (min--moz-device-pixel-ratio: 1.5),
+     only screen and (min-device-pixel-ratio: 1.5) {
+      background-image: url('/assets/img/soulignement@2x.png');
+    }
+  }
+
+  &--left {
+    &::after {
+      bottom: 0;
+      left: -30px;
+      transform: none;
+
+      @include media-breakpoint-down(sm) {
+        left: -10px;
+      }
+    }
+  }
+}
+
+//Bullet
+.u-bullet {
+  position: relative;
+  padding-left: 24px;
+
+  &::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $red10;
+
+    @include media-breakpoint-down(sm) {
+      transform: none;
+      top: 10px;
+    }
+  }
+
+  &--blue::before {
+		background-color: $blue20;
+	}
+
+	&--green::before {
+		background-color: $green10;
+	}
+
+  &--out {
+    padding-left: 0;
+    &::before {
+      left: -24px;
+      @include media-breakpoint-down(sm) {
+        left: -16px;
+      }
+    }
+  }
 }
