@@ -6,6 +6,7 @@
 2- Install Jekyll and <a href="https://jekyllrb.com/docs/ruby-101/#bundler">bundler</a> & <a href="https://jekyllrb.com/docs/ruby-101/#gems">gems</a>
 ```
 gem install jekyll bundler
+bundle install
 ```
 3- Go to the landing page file. <br/>
 ```
